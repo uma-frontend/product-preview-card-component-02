@@ -85,3 +85,25 @@ body{
 .card__btn-icon {
    margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+   .card {
+      flex-direction: column;
+   }
+   .card__img-box {
+      width: 100%;
+      min-height: 240px;
+      background-image: url(../images/image-product-mobile.jpg);
+      border-radius: 10px 10px 0 0;
+   }
+   .card__info {
+      width: 100%;
+      padding: 25px;
+   }
+   .card__heading {
+      margin-bottom: 25px;
+   }
+   .card__text {
+      margin-bottom: 30px;
+   }
+}
